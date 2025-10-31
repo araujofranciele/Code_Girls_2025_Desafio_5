@@ -1,0 +1,56 @@
+# Notas de Estudo – AWS Lambda e Amazon S3
+
+## 📌 Conceitos Relevantes
+
+* **Lambda Function:** função serverless que executa código automaticamente sem precisar de servidor.
+* **Amazon S3:** serviço de armazenamento de objetos na nuvem, usado para armazenar arquivos e disparar eventos.
+* **Eventos do S3:** acionam a Lambda quando objetos são criados, modificados ou deletados.
+* **IAM Roles e Policies:** definem permissões para Lambda acessar S3, CloudWatch e outros serviços.
+* **CloudWatch Logs:** registra a execução da Lambda, permitindo monitorar falhas e desempenho.
+
+---
+
+## 🛠️ Serviços e Ferramentas Utilizadas
+
+* **AWS Lambda:** execução automática de código serverless.
+* **Amazon S3:** armazenamento e disparo de eventos.
+* **AWS IAM:** controle de permissões e segurança.
+* **AWS CloudWatch:** monitoramento e logs das funções.
+* **AWS CLI / Console:** deploy, configuração e testes de Lambda e S3.
+
+---
+
+## 💡 Insights e Boas Práticas
+
+1. **Serverless simplifica infraestrutura:**
+
+   * Não é necessário gerenciar servidores ou escalabilidade manualmente.
+
+2. **IAM com menor privilégio:**
+
+   * Conceda apenas as permissões necessárias à função Lambda para S3 e CloudWatch.
+
+3. **Eventos do S3 para automação:**
+
+   * Ideal para pipelines de dados, processamento de arquivos e notificações automáticas.
+
+4. **Testes antes da produção:**
+
+   * Realize uploads de teste para validar triggers e execução da Lambda.
+
+5. **Monitoramento constante:**
+
+   * Use CloudWatch Logs e Alarms para acompanhar execução, identificar falhas e gerar alertas automáticos.
+
+6. **Timeout e memória adequados:**
+
+   * Configure conforme a necessidade da função para otimizar desempenho e custo.
+
+---
+
+## ⚡ Próximos Passos para Estudo
+
+* Integrar Lambda com outros serviços AWS, como **SNS, SQS, DynamoDB ou API Gateway**.
+* Automatizar pipelines de processamento de dados usando eventos do S3.
+* Explorar **versões e aliases** de Lambda para deploys mais seguros.
+* Criar testes automatizados e monitoramento avançado com CloudWatch Alarms e métricas personalizadas.
