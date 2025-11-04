@@ -1,6 +1,6 @@
 # Laboratório AWS – Lambda Function e Amazon S3
 
-## 📌 Objetivo
+## Objetivo
 
 O objetivo deste laboratório é **consolidar conhecimentos em tarefas automatizadas** utilizando **AWS Lambda** e **Amazon S3**, praticando conceitos de **serverless** e **automação de processos** na nuvem.
 
@@ -13,7 +13,7 @@ Neste laboratório, você aprenderá a:
 
 ---
 
-## 📚 Conceitos Aprendidos
+## Conceitos Aprendidos
 
 * **AWS Lambda:** serviço serverless que executa código sem precisar gerenciar servidores.
 * **Amazon S3:** armazenamento de objetos na nuvem, usado como fonte ou destino de dados.
@@ -23,7 +23,7 @@ Neste laboratório, você aprenderá a:
 
 ---
 
-## 🛠️ Serviços e Ferramentas Utilizadas
+## Serviços e Ferramentas Utilizadas
 
 * **AWS Lambda:** criação e execução de funções serverless
 * **Amazon S3:** armazenamento e eventos para disparo de funções
@@ -33,7 +33,7 @@ Neste laboratório, você aprenderá a:
 
 ---
 
-## 📝 Passo a Passo da Implementação
+## Passo a Passo da Implementação
 
 1. **Criação do Bucket no S3**
 
@@ -81,7 +81,7 @@ Neste laboratório, você aprenderá a:
 
 ---
 
-## 💡 Insights e Boas Práticas
+## Insights e Boas Práticas
 
 * **Serverless simplifica infraestrutura:** sem necessidade de gerenciar servidores físicos ou virtuais.
 * **IAM Roles são essenciais:** sempre conceda apenas permissões mínimas necessárias (princípio do menor privilégio).
@@ -91,7 +91,7 @@ Neste laboratório, você aprenderá a:
 
 ---
 
-## 📂 Estrutura do Repositório
+## Estrutura do Repositório
 
 ```
 aws-lambda-s3-lab/
@@ -99,3 +99,7 @@ aws-lambda-s3-lab/
 ├── README.md                 # Este arquivo
 ├── lambda_function.py        # Código da Lambda
 └── notas-de-estudo.md        # Anotações e insights do laboratório
+
+---
+
+*Projeto desenvolvido por Franciele Araújo como parte de um laboratório prático sobre Lambda Function e Amazon S3.*
